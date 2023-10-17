@@ -1,0 +1,27 @@
+body {
+    background-color: #ffa600;
+    color: white;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+button {
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 15px 60px 15px 60px;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.7s,
+        color 0.7s;
+}
+
+button:hover {
+    background-color: white;
+    color: #ffa600;
+}
